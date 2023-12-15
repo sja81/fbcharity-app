@@ -1,0 +1,1 @@
+Zatial to vie precitat QR ako .png ale len subor bez nejakeho pozadia alebo coho, a fotka tiez nefunguje
