@@ -17,6 +17,6 @@ class QRCodeController extends Controller
         $qrcode = new QrReader($image);
         $text = $qrcode->text();
 
-        return view('welcome', ['text' => $text]);
+        return view('logged in', ['text' => $text]);
     }
 }
