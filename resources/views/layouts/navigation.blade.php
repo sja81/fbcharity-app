@@ -15,7 +15,18 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <!-- tuto treba dorobit este -->
+                    <x-nav-link  :active="request()->routeIs('welcome')">
+                    <label for="Produkty">{{ __('Produkty') }}</label> 
+                        <select name="" id="d"> 
+                            <option value=""></option> 
+                            
+                        </select>
+                    
+                    </x-nav-link>
+
                 </div>
+                
             </div>
 
             <!-- Settings Dropdown -->
