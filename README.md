@@ -1,5 +1,3 @@
-Zatial to vie precitat QR ako .png ale len subor bez nejakeho pozadia alebo coho, a fotka tiez nefunguje
-s pozadim chyba:
-imagecreatefromstring(): gd-png: libpng warning: bKGD: invalid
+Dokaze to citat qr kod uplne v pohode ako kamera, skusal som na pocitaci, ale funhuje to len na localhoste a na https (toto teda pisu na internete neviem ako vyskusat https u mna) http nefunguje. Ale ak nechceme pouzit kameru ale vybereme nejaky subor tak to ide aj na http.
 
 dorobit navigation.blade.php dropdown menu ... 
