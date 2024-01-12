@@ -40,7 +40,8 @@
     <header style="background: black; height: 17%; display: flex; justify-content: space-between;">
         <div>
             <div style="color: white; padding: 10px; margin: 5px;">Ahoj,</div>
-            <div style="color: white; padding-left: 10px; margin: 5px; font-weight: bold;">Meno</div>
+            <div style="color: white; padding-left: 10px; margin: 5px; font-weight: bold;">Meno {{ $text }}
+
             <div style="color: white; padding: 10px; margin: 5px; font-weight: bold;">Priezvisko</div>
         </div>
         <div>
